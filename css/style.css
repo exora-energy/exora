@@ -6,6 +6,7 @@ body{
 #rightdiv{
   background-color: #20222B;
   height:100vh;
+  padding-left: 6vw;
 }
 #leftdiv{
   background-color: #ffee58;
