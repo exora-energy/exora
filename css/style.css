@@ -17,6 +17,12 @@ body{
   font-family: 'Bungee';
   font-size: 4.7em;
 }
+#titletextr{
+  margin-top:20vh;
+  font-family: 'Bungee';
+  font-size: 4.7em;
+  color:white;
+}
 .email{
   border-radius: 35px;
   border: 2px solid #fff;
