@@ -8,6 +8,23 @@ body{
   height:100vh;
 }
 #leftdiv{
-  background-color: #ffeb3b;
+  background-color: #ffee58;
   height:100vh;
+  padding-left: 8vw;
+}
+#titletext{
+  margin-top:20vh;
+  font-family: 'Bungee';
+  font-size: 4.7em;
+}
+.email{
+  border-radius: 35px;
+  border: 2px solid #fff;
+  height: 4.125em;
+  width:50%;
+  padding-left: 20px;
+  font-size: 12px;
+}
+input:focus{
+    outline: none;
 }
