@@ -71,7 +71,7 @@ input:focus{
 }
 
 /*desktop*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 #mdiv{
   background-size: cover;
   background-image: url(../mainbg5.jpg);
