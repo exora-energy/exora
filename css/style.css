@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	overflow-x:hidden;
+  font-family: 'Muli', sans-serif;
 }
 #mdiv{
   background-size: cover;
@@ -11,7 +12,7 @@ body{
   padding-top:15vh;
 }
 #greydiv{
-  background-color: rgba(1, 1, 1, 0.3);
+  background-color: rgba(1, 1, 1, 0.7);
   width:36vw;
   height:65vh;
   padding-top: 2vh;
@@ -21,15 +22,48 @@ body{
   width:34vw;
   margin-left: 1vw;
   height:61vh;
-  padding-left: 7.1vw;
-  padding-top: 5vh;
+  padding-top: 5.5vh;
 }
 #logodiv{
   background-size: contain;
   background-image: url(../logo.png);
-  height:10vh;
-  width:20vw;
+  height:12vh;
+  width:22vw;
+  margin-left: 6vw;
   background-repeat: no-repeat;
+}
+.calltoaction{
+  color:#FFD545;
+  font-size: 24px;
+  font-family: 'Muli', sans-serif;
+  margin-top: 7.5vh;
+}
+.comingsoon{
+  color:white;
+  font-size: 24px;
+  font-family: 'Muli', sans-serif;
+  margin-top: 7.5vh;
+}
+.email{
+  margin-top: 2vh;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  height: 4em;
+  width:20vw;
+  padding-left: 20px;
+  font-size: 12px;
+  background-color: rgba(1, 1, 1, 0);
+  color:white;
+  margin-left: 5vw;
+}
+.emailbtn{
+  height: 4em;
+  width:4vw;
+  border-radius: 10px;
+  font-size: 12px;
+  border: 1px solid #fff;
+  color:black;
+  background-color: #BFBEBC;
 }
 input:focus{
     outline: none;
