@@ -4,6 +4,74 @@ body{
 	overflow-x:hidden;
   font-family: 'Muli', sans-serif;
 }
+input:focus{
+    outline: none;
+}
+/*mobile*/
+#mdiv{
+  background-size: cover;
+  background-image: url(../mainbg5.jpg);
+  height:100vh;
+  padding-left: 10vw;
+  padding-top:15vh;
+}
+#greydiv{
+  background-color: rgba(1, 1, 1, 0.7);
+  width:80vw;
+  height:60vh;
+  padding-top: 2vh;
+}
+#whiteborder{
+  border: 2px solid white;
+  width:74vw;
+  margin-left: 3vw;
+  height:56vh;
+  padding-top: 5.5vh;
+}
+#logodiv{
+  background-size: contain;
+  background-image: url(../logo.png);
+  height:10vh;
+  width:50vw;
+  margin-left: 12vw;
+  background-repeat: no-repeat;
+}
+.calltoaction{
+  color:#FFD545;
+  font-size: 24px;
+  font-family: 'Muli', sans-serif;
+  margin-top: 4.5vh;
+}
+.email{
+  margin-top: 2vh;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  height: 4em;
+  width:45vw;
+  padding-left: 15px;
+  font-size: 12px;
+  background-color: rgba(1, 1, 1, 0);
+  color:white;
+  margin-left: 7.5vw;
+}
+.emailbtn{
+  height: 4em;
+  width:15vw;
+  border-radius: 10px;
+  font-size: 12px;
+  border: 1px solid #fff;
+  color:black;
+  background-color: #BFBEBC;
+}
+.comingsoon{
+  color:white;
+  font-size: 24px;
+  font-family: 'Muli', sans-serif;
+  margin-top: 7.5vh;
+}
+
+/*desktop*/
+@media only screen and (min-width: 768px) {
 #mdiv{
   background-size: cover;
   background-image: url(../mainbg5.jpg);
@@ -65,6 +133,4 @@ body{
   color:black;
   background-color: #BFBEBC;
 }
-input:focus{
-    outline: none;
 }
