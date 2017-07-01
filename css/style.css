@@ -3,34 +3,33 @@ body{
 	padding: 0;
 	overflow-x:hidden;
 }
-#rightdiv{
-  background-color: #20222B;
+#mdiv{
+  background-size: cover;
+  background-image: url(../mainbg5.jpg);
   height:100vh;
-  padding-left: 6vw;
+  padding-left: 32vw;
+  padding-top:15vh;
 }
-#leftdiv{
-  background-color: #ffee58;
-  height:100vh;
-  padding-left: 8vw;
+#greydiv{
+  background-color: rgba(1, 1, 1, 0.3);
+  width:36vw;
+  height:65vh;
+  padding-top: 2vh;
 }
-#titletext{
-  margin-top:20vh;
-  font-family: 'Bungee';
-  font-size: 4.7em;
+#whiteborder{
+  border: 2px solid white;
+  width:34vw;
+  margin-left: 1vw;
+  height:61vh;
+  padding-left: 7.1vw;
+  padding-top: 5vh;
 }
-#titletextr{
-  margin-top:20vh;
-  font-family: 'Bungee';
-  font-size: 4.7em;
-  color:white;
-}
-.email{
-  border-radius: 35px;
-  border: 2px solid #fff;
-  height: 4.125em;
-  width:50%;
-  padding-left: 20px;
-  font-size: 12px;
+#logodiv{
+  background-size: contain;
+  background-image: url(../logo.png);
+  height:10vh;
+  width:20vw;
+  background-repeat: no-repeat;
 }
 input:focus{
     outline: none;
