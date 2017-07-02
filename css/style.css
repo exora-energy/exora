@@ -69,7 +69,19 @@ input:focus{
   font-family: 'Muli', sans-serif;
   margin-top: 7.5vh;
 }
-
+#vdiv{
+  background-color:#4DB6AC;
+  padding-top: 5vh;
+  height:75vh;
+}
+#vtextdiv{
+  padding-top:5vh;
+  color:#0D1713;
+  font-size: 17px;
+  font-family: 'Muli', sans-serif;
+  padding-left:5vw;
+  padding-right:5vw;
+}
 /*desktop*/
 @media only screen and (min-width: 769px) {
 #mdiv{
@@ -78,6 +90,24 @@ input:focus{
   height:100vh;
   padding-left: 32vw;
   padding-top:15vh;
+}
+#vdiv{
+  background-size: cover;
+  background-color:#4DB6AC;
+  height:100vh;
+
+}
+#vcontdiv{
+  padding-top:15vh;
+  padding-left:15vh;
+}
+#vtextdiv{
+  padding-top:15vh;
+  padding-left:3vw;
+  padding-right:5vw;
+  color:#0D1713;
+  font-size: 20px;
+  font-family: 'Muli', sans-serif;
 }
 #greydiv{
   background-color: rgba(1, 1, 1, 0.7);
